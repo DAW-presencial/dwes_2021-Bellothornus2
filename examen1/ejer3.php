@@ -4,10 +4,10 @@ class A {
     protected $almacen = 100;
 
     public function __set($nombre,$valor){
-        echo "A Creando propiedad: $nombre valor: $valor";
+        echo "Clase A Creando propiedad: $nombre valor: $valor";
     }
     public function __get($nombre){
-        echo "A Recibiendo propiedad: $nombre";
+        echo "Clase A Recibiendo propiedad: $nombre";
     }
     
 }
